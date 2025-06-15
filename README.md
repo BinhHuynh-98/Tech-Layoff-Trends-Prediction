@@ -35,31 +35,6 @@ seaborn
 scipy
 ```
 
-## Installation
-
-1. Ensure you have Anaconda or Miniconda installed
-2. Create and activate a new environment:
-```bash
-conda create -n tech_layoffs python=3.8
-conda activate tech_layoffs
-```
-
-3. Install required packages:
-```bash
-conda install pandas numpy matplotlib seaborn scipy jupyter
-```
-
-## Usage
-
-1. Clone or download this repository
-2. Navigate to the project directory
-3. Launch Jupyter Notebook:
-```bash
-jupyter notebook
-```
-4. Open `tech_layoffs_analysis.ipynb`
-5. Run all cells in sequence
-
 ## Analysis Components
 
 ### 1. Monthly Trends
@@ -77,22 +52,3 @@ jupyter notebook
 - Statistical testing for significance
 - Distribution analysis of layoff sizes by company status
 
-## Results
-
-The notebook generates various visualizations and statistical analyses:
-- Bar charts showing temporal trends
-- Geographic distribution visualizations
-- Comparative analysis between public and private companies
-- Statistical significance tests
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests with improvements or additional analyses.
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contact
-
-For questions or suggestions, please open an issue in the repository. 
